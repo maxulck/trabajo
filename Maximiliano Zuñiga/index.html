@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hambre Cero</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="imagen/logo.png" alt="Logo Hambre Cero" width="40" height="40" class="me-2">
+        El aniquilador del Hambre
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#carta">Carta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#historia">Historia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sucursales">Sucursales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <section id="carta" class="container mt-5">
+    <h2 class="text-center mb-4">Nuestra Carta</h2>
+  
+   
+    
+    <h3 class="text-center mt-5 mb-3">Sándwiches</h3>
+
+<div id="carouselExampleCaptions" class="carousel slide mb-5" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Sándwich 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Sándwich 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Sándwich 3"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imagen/sandwich_pollo.jpg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Sándwich de Pollo">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-2">
+        <h5>Sándwich de Pollo</h5>
+        <p>Pollo grillado, lechuga, tomate, mayonesa casera <br><strong>$4.500</strong></p>
+      </div>
+    </div>
+
+  
+    <div class="carousel-item">
+      <img src="imagen/sandwich_Vegana.jpg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Hamburguesa Vegana">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-2">
+        <h5>Hamburguesa Vegana</h5>
+        <p>Lentejas, palta, tomate, cebolla morada <br><strong>$5.000</strong></p>
+      </div>
+    </div>
+
+
+    <div class="carousel-item">
+      <img src="imagen/sandwich_italiano.jpg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Lomito Italiano">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-2">
+        <h5>Lomito Italiano</h5>
+        <p>Cerdo asado, palta, tomate, mayonesa <br><strong>$4.800</strong></p>
+      </div>
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
+
+      
+<h3 class="text-center mt-5 mb-3">Platos</h3>
+
+<div id="carouselPlatos" class="carousel slide mb-5" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselPlatos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Plato 1"></button>
+    <button type="button" data-bs-target="#carouselPlatos" data-bs-slide-to="1" aria-label="Plato 2"></button>
+    <button type="button" data-bs-target="#carouselPlatos" data-bs-slide-to="2" aria-label="Plato 3"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imagen/espaguetis.jpg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Lasagna Casera">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-2">
+        <h5>Lasagna Casera</h5>
+        <p>Pasta fresca, carne molida, salsa de tomate, queso parmesano <br><strong>$6.500</strong></p>
+      </div>
+    </div>
+
+   
+    <div class="carousel-item">
+      <img src="imagen/curry.jpg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Curry de Verduras">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-2">
+        <h5>Curry de Verduras</h5>
+        <p>Zanahoria, papa, coliflor, garbanzos, leche de coco y especias <br><strong>$5.800</strong></p>
+      </div>
+    </div>
+
+    
+    <div class="carousel-item">
+      <img src="imagen/milanesa.png" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Milanesa con Papas">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-2">
+        <h5>Milanesa con Papas</h5>
+        <p>Milanesa de res, papas fritas caseras, ensalada <br><strong>$6.200</strong></p>
+      </div>
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselPlatos" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselPlatos" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
+ 
+<h3 class="text-center mt-5 mb-3">Bebestibles</h3>
+  <div id="carouselBebestibles" class="carousel slide mb-5" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselBebestibles" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carouselBebestibles" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carouselBebestibles" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imagen/jugo_frutilla.png" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Jugo Natural">
+        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-2">
+          <h5>Jugo Natural</h5>
+          <p>Naranja o frutilla, recién exprimido <br><strong>$2.000</strong></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imagen/te-helado.jpg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Té Helado">
+        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-2">
+          <h5>Té Helado</h5>
+          <p>Té negro con limón, hierbabuena y hielo <br><strong>$1.800</strong></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imagen/cafe_.jpeg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Café Americano">
+        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-2">
+          <h5>Café Americano</h5>
+          <p>Grano molido, filtrado suave <br><strong>$1.500</strong></p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselBebestibles" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselBebestibles" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+
+  <h3 class="text-center mt-5 mb-3">Postres</h3>
+  <div id="carouselPostres" class="carousel slide mb-5" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselPostres" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carouselPostres" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carouselPostres" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imagen/postre_helado.png" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Brownie con Helado">
+        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-2">
+          <h5>Brownie con Helado</h5>
+          <p>Brownie casero con helado de vainilla <br><strong>$3.500</strong></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imagen/tarta_manzana.webp" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Tarta de Manzana">
+        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-2">
+          <h5>Tarta de Manzana</h5>
+          <p>Masa crujiente, manzana caramelizada <br><strong>$3.200</strong></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imagen/flan.jpg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Flan Casero">
+        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-2">
+          <h5>Flan Casero</h5>
+          <p>Flan de vainilla con caramelo <br><strong>$2.800</strong></p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPostres" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselPostres" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+  
+  </section>
+  
+
+   
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
